@@ -1,0 +1,80 @@
+*{
+    cursor: url(https://lh3.googleusercontent.com/5033XnhsfuSCAwwdf-Wgt4vRpH9KDQC7jARms2-1OOXYsA5Qt51oEvOD0BKLTKl5b9Ca0bD6D9j-Sp3Sp9Gqz7WWiw=w128-h128-e365-rj-sc0x00ffffff), pointer;
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+
+html{
+    height: 100vh;
+}
+
+
+
+
+body {
+    background-image: linear-gradient(125deg, #ff628c 0, #ff657c 6.25%, #ff6a6c 12.5%, #ff705c 18.75%, #ff774e 25%, #ff7e3f 31.25%, #f88631 37.5%, #ed8d23 43.75%, #e19413 50%, #d49a00 56.25%, #c6a000 
+    62.5%, #b7a600 68.75%, #a7ab00 75%, #96af0f 81.25%, #83b320 87.5%, #6fb630 93.75%, #58b940 100%);
+
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+
+@keyframes alfredo {
+    0%{}
+    25%{top: 0px;left: 5 00px; filter: opacity(1);}
+    50%{left: 0px;left: 500px; transform: rotate3d(1, 1, 1, 360deg);}
+    100%{}
+}
+
+@keyframes cosk {
+    0%{top: 200px;}
+    25%{top: 300px;left: 200px; filter: opacity(1);}
+    50%{top: 200px; left: 0px;left: 200px; transform: rotate3d(1, 1, 1, 360deg);}
+    100%{top: 200px;}
+}
+
+.jodse{
+    animation: alfredo 0.5s infinite ease-in-out;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
+
+.pedro{
+    font-family: cursive;
+    font-size: 70px;
+}
+
+.mae{
+    animation: cosk 1s infinite ease-in-out;
+    position: absolute;
+    left: 200px;
+}
+
+.teupai{
+    max-width: 50%;
+    animation: sinistro 0.5s infinite cubic-bezier(.17, .67, 1, .05)both;
+}
+.teupau{
+    max-width: 50%;
+    position: absolute;
+    left: 640px;
+    width: 44%;
+    animation: ze 2s infinite ease-in-out both
+}
+
+
+@keyframes sinistro{
+    0%{width: 500px;}
+    50%{width: 600px;}
+    100%{width: 200px;}
+}
+
+@keyframes ze{
+    0%{width: 500px;}
+    50%{width: 640px;}
+    100%{width: 200px;}
+}
